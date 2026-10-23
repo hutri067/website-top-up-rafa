@@ -7,7 +7,7 @@ ADMIN_WA = "085378380599"
 
 PRODUCTS = {
     "Free Fire": [
-        ("5 Diamonds", 1000),
+        ("5 Diamonds", 1000000),
         ("12 Diamonds", 2000),
         ("50 Diamonds", 8000),
         ("70 Diamonds", 10000),
