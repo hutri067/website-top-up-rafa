@@ -3,9 +3,7 @@ from urllib.parse import quote
 
 app = Flask(__name__)
 
-# GANTI dengan nomor WhatsApp admin, format internasional tanpa tanda +
-# Contoh Indonesia: 6281234567890
-ADMIN_WA = "6281234567890"
+ADMIN_WA = "85378380599"
 
 PRODUCTS = {
     "Free Fire": [
@@ -38,7 +36,7 @@ PAGE = r"""
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NEXA TOPUP — Top Up Game</title>
+  <title>RAFA TOPUP — Top Up Game</title>
   <style>
     :root { --bg:#090d18; --panel:#121a2b; --muted:#9aa8c4; --text:#f5f7ff; --accent:#7c5cff; --cyan:#24d6c8; }
     * { box-sizing:border-box; }
@@ -107,7 +105,7 @@ PAGE = r"""
     </div>
   </form>
 </main>
-<div class="footer">© 2026 NEXA TOPUP · Fan-made demo, bukan situs resmi game.</div>
+<div class="footer">© 2026 RAFATOPUP · Fan-made demo, bukan situs resmi game.</div>
 <script>
 const products = {{ products|tojson }};
 let selectedPackage = "";
