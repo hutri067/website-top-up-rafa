@@ -3,7 +3,7 @@ from urllib.parse import quote
 
 app = Flask(__name__)
 
-ADMIN_WA = "85378380599"
+ADMIN_WA = "085378380599"
 
 PRODUCTS = {
     "Free Fire": [
